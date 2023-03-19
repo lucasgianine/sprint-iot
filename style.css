@@ -1,0 +1,49 @@
+/* Para modificar o fundo da página e centralizar */
+body {
+    background-image: linear-gradient(90deg, #181823, #537FE7);
+    text-align: center;
+}
+
+/* Classe para modificar as fontes do cabeçalho H1 */
+.TypeFont {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    text-shadow: 0px 1px black;
+}
+
+/* Classe para a div principal da página */
+.Card {
+    /* width: 500px;
+    height: fit-content;
+    background-color: #181823;
+    border: solid 2px #537fe7;
+    border-radius: 25px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    text-shadow: 0px 1px black;
+}
+
+/* Div para mostrar o "Página Inicial" como uma forma clicável */
+.divVoltar {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    text-shadow: 0px 1px black;
+    text-align: left;
+    text-decoration: underline;
+    
+}
+
+/* Botões modificados com CSS */
+.botaozinho {
+	background: #537fe7;
+	color: azure;
+	border: 1px solid #eee;
+	border-radius: 20px;
+}
+.botaozinho:hover {
+	background: #03226c;
+	color: azure;
+	border: 1px solid #eee;
+	border-radius: 20px;
+}

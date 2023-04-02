@@ -1,45 +1,3 @@
-<!DOCTYPE html>
-<html lang="ptbr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculador Financeiro - LuminusTECH</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="divVoltar">| Página Inicial</div>
-    <img src="Luminustech_Logo.png" alt="LuminusTECH" width="300px"><br>
-    <h1 class="TypeFont">Calcule (Apenas) seus gastos em energia</h1><br>
-    <div class="Card">
-        <br>
-        <span>Informe o seu consumo de energia no mês:</span><br>
-        <input type="number" id="input_energia" placeholder="Valor em Kwz" min="0.1">
-        <br>
-        <span>Informe a bandeira de energia:</span><br>
-        <input type="number" id="input_bandeira" placeholder="GRE = 1, RED = 2 ou YEL = 3" min="1" max="3">
-        <br>
-
-        <button class="botaozinho" onclick="calcularEnergia()">Calcular</button> <br><br>
-
-        <div id="divEconomia"></div> <br><br>
-
-        <span>Informe a largura e comprimento do seu galpão</span> <br>
-        <input type="number" placeholder="Largura por metro" id="input_largura"> <br>
-        <input type="number" placeholder="Comprimento por metro" id="input_comprimento"> <br>
-
-        <button class="botaozinho" onclick="calcularArea()">Calcular área</button>
-
-        <div id="divArea"></div>
-
-    </div>
-</body>
-
-</html>
-
-<script>
     console.log("Calculadora está funcionando!");
 
     // Calculo para mostrar quanto em um mês nosso cliente pode economizar em energia com o nosso monitoramento:
@@ -117,7 +75,7 @@
         var valor_por_area = sensores * 138.42;
 
         divArea.innerHTML = `Você precisa de <b>${sensores}</b> sensores. <br>
-        Seu investimento seria de <b>R$${valor_por_area.toFixed(2)}</b>.`
-
+        Seu investimento seria de <b>R$${valor_por_area.toFixed(2)}</b>.`;
     }
-</script>
+
+    // Desenvolvido em conjunto com a equipe do projeto LuminusTech da Sprint 1 (1ADSB)

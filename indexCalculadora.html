@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador Financeiro - LuminusTECH</title>
+    <link rel="stylesheet" href="styleCalculadora.css">
+    <script src="scriptCalculadora.js"></script>
+</head>
+
+<body>
+    <!-- Mini-Header -->
+    <div class="divVoltar">| Página Inicial</div>
+
+    <!-- Logo no centro -->
+    <img src="Luminustech_Logo.png" alt="LuminusTECH" width="300px"><br>
+    <!-- Título -->
+    <h1 class="TypeFont">Calcule (Apenas) seus gastos em energia</h1><br>
+    <!-- Tela principal -->
+    <div class="Card">
+        <br>
+        <span>Informe o seu consumo de energia no mês:</span><br>
+        <input type="number" id="input_energia" placeholder="Valor em Kwz" min="0.1">
+        <br>
+        <span>Informe a bandeira de energia:</span><br>
+        <input type="number" id="input_bandeira" placeholder="GRE = 1, RED = 2 ou YEL = 3" min="1" max="3">
+        <br>
+        <!-- Botão para calcular no JS a quantidade de energia gasta, e quanto poderá economizar -->
+        <button class="botaozinho" onclick="calcularEnergia()">Calcular</button> <br><br>
+
+        <!-- Onde aparecerá a conta realizada -->
+        <div id="divEconomia"></div> <br><br>
+
+        <!-- Segunda tela -->
+        <span>Informe a largura e comprimento do seu galpão</span> <br>
+        <input type="number" placeholder="Largura por metro" id="input_largura"> <br>
+        <input type="number" placeholder="Comprimento por metro" id="input_comprimento"> <br>
+
+        <button class="botaozinho" onclick="calcularArea()">Calcular área</button>
+        <!-- Onde aparecerá a conta de quanto você investirá nos sensores por área -->
+        <div id="divArea"></div>
+
+    </div>
+</body>
+
+</html>
+
+<!-- Esta calculadora em específico foi desenvolvido por Lucas Santos
+Junto dos integrantes: Daniel Rios, Noá Miglio, Rafael Reis, Murilo Mazzoni, Luis Felipe 
+
+Última atualização: 02/04/23
+Motivo: Criei um script.js separado para colocar os cálculos-->

@@ -20,7 +20,7 @@ Sobre as bandeiras, no código temos três: verde, amarela e vermelha, a conta f
 E por fim, adicionamos também um cálculo básico que pergunda a área do seu galpão, e com isso mostramos quantos sensores serão necessários, e quanto será seu investimento inicial por conta desses gastos com sensores:
 #### <img src="https://user-images.githubusercontent.com/125743142/230957543-d4ae52bb-8fe5-4a7a-92db-d30b658cc34a.PNG" alt="Tela 4 (Área)" />
 ### Por trás do código
- Nosso código usamos apenas IF (requisito dado pelo professor Caio de Algoritmos)<br>
+ Usamos apenas IF (restrição dada pelo professor Caio de Algoritmos)<br>
  Criamos as variáveis para guardar um valor que será usado posteriormente, como os Kwh e as bandeiras informadas pelo usuário:
 #### <img src="https://user-images.githubusercontent.com/125743142/230957865-20ef9b0a-6f8e-4416-bd45-5d78051aefc2.png" alt="Kwh e bandeiras" />
 Após validar a bandeira escolhida, dentro da estrutura, temos mais um cálculo, que mostrará para o cliente a quantidade de perda e economia:
